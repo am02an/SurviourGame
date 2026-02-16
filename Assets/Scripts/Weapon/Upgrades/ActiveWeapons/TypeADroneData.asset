@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0621d119272777f4e950072aedf1c49b, type: 3}
+  m_Name: TypeADroneData
+  m_EditorClassIdentifier: 
+  weaponType: 0
+  weaponName: Type-A Drone
+  icon: {fileID: 21300000, guid: eea03b28192211b4aafee538c8be934f, type: 3}
+  weaponPrefab: {fileID: 5183823570375942771, guid: e0a7fd8cf48c7f74bb9c5945fdc7d1b3, type: 3}
+  damage: 18
+  range: 15
+  cooldown: 1.4
+  duration: 6
+  projectileSpeed: 8
+  canEvolve: 1
+  evolvedWeapon: 12
+  requiredPassive: 11

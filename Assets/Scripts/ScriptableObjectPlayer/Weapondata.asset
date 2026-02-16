@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2bf9dcb80e84064799323483bc44d51, type: 3}
+  m_Name: Weapondata
+  m_EditorClassIdentifier: 
+  weaponID: 0
+  weaponName: Simple
+  weaponPrefab: {fileID: 2615325726867340740, guid: c157a0045b7c2064c87097f51c978af8, type: 3}
+  projectilePrefab: {fileID: 1394960601440082526, guid: 26a3c40def05a0c4fa9202e2f0618321, type: 3}
+  baseDamage: 10
+  fireRate: 0.8
+  range: 20
+  projectileSpeed: 8
+  maxLevel: 5

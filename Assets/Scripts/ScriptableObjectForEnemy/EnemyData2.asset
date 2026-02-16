@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dedbd18abda9ab4fba10001a42ce9b4, type: 3}
+  m_Name: EnemyData2
+  m_EditorClassIdentifier: 
+  enemyType: 1
+  maxHealth: 5
+  moveSpeed: 8
+  damage: 3
+  attackRange: 20
+  attackCooldown: 0.5
+  coins: {fileID: 6324319466842950935, guid: c7466905105475a4ba32763888a93a44, type: 3}
+  health: {fileID: 6771919380505233165, guid: f29ebc69b56c4154999401640e149f59, type: 3}
+  coinDropChance: 0.292
+  healthDropChance: 0.13
+  enemyPrefab: {fileID: 6768769633852334419, guid: 940f29a68b666414683b0ed730c42107, type: 3}
+  deathPrefab: {fileID: 4567731836195689784, guid: 4fdee7507e8ed0541b239a142728fcac, type: 3}
+  corpseLifetime: 2
+  bulletPrefab: {fileID: 8531987404837455042, guid: f6be7806ef35d594f9857bdb994f1490, type: 3}
+  bulletSpeed: 25
